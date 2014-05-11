@@ -1,0 +1,26 @@
+{
+  "name": "dom-tree",
+  "version": "0.0.0",
+  "description": "DOM Manipulation Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test -b"
+  },
+  "devDependencies": {
+    "prova": "*"
+  },
+  "keywords": [
+    "dom",
+    "browser"
+  ],
+  "repository": {
+    "url": "git@github.com:npm-dom/dom-tree.git",
+    "type": "git"
+  },
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
+  "license": "BSD",
+  "dependencies": {
+    "dom-select": "0.0.x",
+    "new-element": "0.0.x"
+  }
+}
