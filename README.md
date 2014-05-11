@@ -1,13 +1,13 @@
-## dom-children
+## dom-tree
 
-Library to modify DOM 
+Library to manipulate DOM elements
 
 Example:
 
 ```js
-add = require('dom-children').add
+var dom = require('dom-tree')
 
-add(document.body, '<h1>{title}</h1>{content}', {
+dom.add(document.body, '<h1>{title}</h1>{content}', {
   title: 'Hello',
   content: 'Welcome!'
 })
@@ -16,7 +16,7 @@ add(document.body, '<h1>{title}</h1>{content}', {
 ## Install
 
 ```bash
-$ npm install dom-children
+$ npm install dom-tree
 ```
 
 ## API
