@@ -1,6 +1,6 @@
 {
   "name": "dom-tree",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "DOM Manipulation Library",
   "main": "index.js",
   "scripts": {
